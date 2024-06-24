@@ -1,0 +1,33 @@
+from turtle import Turtle
+
+tur = Turtle()
+tur.speed(10)
+tur.penup()
+tur.goto((-300, 300))
+tur.pendown()
+tur.begin_fill()
+tur.color('black', 'red')
+tur.goto((-150, 300))
+tur.goto((-225, 180))
+tur.end_fill()
+
+tur.begin_fill()
+tur.color('black', 'yellowgreen')
+tur.penup()
+tur.goto((-195, 180))
+tur.pendown()
+tur.goto((-120, 300))
+tur.goto((-45, 180))
+tur.end_fill()
+
+tur.begin_fill()
+tur.color('black', 'blue')
+tur.penup()
+tur.goto((-15, 180))
+tur.pendown()
+tur.goto((-90, 300))
+tur.goto((60, 300))
+tur.goto((-15, 180))
+tur.end_fill()
+
+tur.screen.mainloop()
